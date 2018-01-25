@@ -1,6 +1,11 @@
 # chart-curvature
 A simple proof of concept project that aims to demonstrate price chart data analysis.
 
+<p align="center">
+  <img width="600" alt="Sample Result"
+  src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/chart-curvature.png">
+  </p>
+
 ## Concept
 I have started this project with the aim of experimenting with price data and
 running an analysis to test a mathematical concept, in that case curvature
