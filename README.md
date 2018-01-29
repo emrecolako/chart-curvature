@@ -15,14 +15,18 @@ The question that I have initially asked at the beginning of my research was: _W
 Simply put, curvature is an important indicator that signals change of direction on a curve. In order to keep this article focused on the actual technical stages that I have followed and reflect my findings as clear as possible, I will refrain from going into details when it comes to explaining the actual maths behind curvature calculations. However, I would like to provide a quick reference.
 
 ## Background
-_Images and notes about what curvature is etc._
+ _Curvature_ is a topic widely covered in the realm of Mathematics. There is a wiki page explaining the maths behind curvature calculations and can be accessed [here][link09].
+
+<p align="center">
+  <img width="600" alt="Osculating Circle"
+  src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/osculating_circle.svg">
+</p>
 
 ## Prerequisites
-In order to acquire the data that we are going to run our analysis on, we will need the following Poloniex API wrapper: [s4w3d0ff/python-poloniex][link01]
+This project is compatible with [Python 2.7][link08]. In order to acquire the data that we are going to run our analysis on, we will need the following Poloniex API wrapper: [s4w3d0ff/python-poloniex][link01]
 
-In addition to these, the following Python libraries will be required to run the example code. These modules are essential for any data analysis tasks so they are quite popular and the steps required for the installation are well documented:
+In addition to these, the following Python libraries will be required to run the example code. These modules are essential for any data analysis related tasks so they are quite popular and the steps required for their installation are well documented:
 
-* [Python 2.7][link07]
 * [plotly.py][link02]
 * [pymongo (required by python-poloniex)][link03] 
 * [NumPy][link04]
@@ -66,3 +70,4 @@ Running the above command should plot the results of our research. The result sh
 [link06]: <http://scikit-learn.org/stable>
 [link07]: <https://github.com/s4w3d0ff/python-poloniex>
 [link08]: <https://www.python.org/download/releases/2.7/>
+[link09]: <https://en.wikipedia.org/wiki/Curvature>
