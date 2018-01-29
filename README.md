@@ -18,32 +18,23 @@ Simply put, curvature is an important indicator that signals change of direction
 _Images and notes about what curvature is etc._
 
 ## Prerequisites
-In order to acquire the data that we are going to run our analysis on, we will
-need the following Poloniex API wrapper:
-[s4w3d0ff/python-poloniex][link01]
+In order to acquire the data that we are going to run our analysis on, we will need the following Poloniex API wrapper: [s4w3d0ff/python-poloniex][link01]
 
-In addition to these, the following Python libraries will be required to run
-the example code. These modules are essential for any data analysis tasks so
-they are quite popular and the steps required for the installation are well
-documented:
+In addition to these, the following Python libraries will be required to run the example code. These modules are essential for any data analysis tasks so they are quite popular and the steps required for the installation are well documented:
 
 * [plotly.py][link02]
 * [pymongo (required by python-poloniex)][link03] 
 * [NumPy][link04]
 * [Pandas][link05]
+* [Scikit][link06]
 
 ## Process
-We first start with caching some data from the Poloniex exchange. The part of our
-application used to pull the price data from Poloniex is called `get-data.py`.
-This small python script is based on one of the examples provided with the
-Poloniex API wrapper project.
+We first start by caching some data from Poloniex. Poloniex is one of the most popular crypto-currency exchanges with a good API service. The part of our application used to pull the price data from Poloniex is called `get-data.py`. This small python script is based on one of the examples provided with the Poloniex API wrapper project mentioned above.
 
-Once we have generated the `data.csv` we can run the `plot-data.py` component
-of our application in order to plot the results. In the next section, I will be
-going through the stages in a more detailed approach.
+Once we have generated the required data, we should be able to plot the results and evaluate our findings. In the next section, I will be going through each stage in a more detailed fashion.
 
 ### Source Data
-By default, the sample data used in this example is the BTC/STRAT (Bitcoin/Stratis) pair on Poloniex. More details on how price data is pulled from the exchange and stored for processing is available at [s4w3d0ff/python-poloniex][link01].
+By default, the sample data used in this example is the chart data for the BTC/STRAT (Bitcoin/Stratis) pair on Poloniex. More details on how price data is pulled and stored from the exchange is available at [s4w3d0ff/python-poloniex][link01].
 
 ```
 ./get-data.py
@@ -58,8 +49,7 @@ The second component of our application is the plotter.
 ./plot-data.py
 ```
 
-Running the above command should plot the results of our research. The result
-should look like the image provided above.
+Running the above command should plot the results of our research. The result should look like the image provided above.
 
 ## Conclusion
 
@@ -68,3 +58,4 @@ should look like the image provided above.
 [link03]: <https://api.mongodb.com/python/current>
 [link04]: <http://www.numpy.org>
 [link05]: <https://pandas.pydata.org>
+[link06]: <http://scikit-learn.org/stable>
