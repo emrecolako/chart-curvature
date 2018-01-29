@@ -7,12 +7,12 @@ A simple proof of concept project that aims to demonstrate price chart data anal
 </p>
 
 ## Concept
-I have started this project as an experiment focusing on financial price data and with the aim of understanding the relation between the price trend as a curve and the curvature of that curve.
+This project was started this project as an experiment focusing on analysing financial price data and with the aim of understanding the relation between the price trend as a curve and the curvature of that curve.
 
 ## Abstract
-This was the question that I have asked at the beginning of my research: _Why curvature is important and what does it tell us about the trend of a financial asset?_ 
+The question that I have initially asked at the beginning of my research was: _Why curvature is important and what does it tell us about the trend of a financial asset?_ 
 
-Simply put, curvature is an important indicator that signals change of direction on a curve. In order to keep this article focused on the actual technical stages that I have followed and reflect my findings as clear as possible, I will refrain from going into details when it comes to explaining the actual maths behind the curvature calculations. However, I would like to provide a quick reference.
+Simply put, curvature is an important indicator that signals change of direction on a curve. In order to keep this article focused on the actual technical stages that I have followed and reflect my findings as clear as possible, I will refrain from going into details when it comes to explaining the actual maths behind curvature calculations. However, I would like to provide a quick reference.
 
 ## Background
 _Images and notes about what curvature is etc._
