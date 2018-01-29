@@ -7,7 +7,7 @@ A simple proof of concept project that aims to demonstrate price chart data anal
 </p>
 
 ## Concept
-This project was started this project as an experiment focusing on analysing financial price data and with the aim of understanding the relation between the price trend as a curve and the curvature of that curve.
+This project was started as an experiment focusing on analysing financial price data and with the aim of understanding the relation between the price trend as a curve and the curvature of that curve.
 
 ## Abstract
 The question that I have initially asked at the beginning of my research was: _Why curvature is important and what does it tell us about the trend of a financial asset?_ 
