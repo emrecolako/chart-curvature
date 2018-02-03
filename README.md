@@ -15,12 +15,17 @@ The question that I have initially asked at the beginning of my research was: _W
 Simply put, curvature is an important indicator that signals change of direction on a curve. In order to keep this article focused on the actual technical stages that I have followed and reflect my findings as clear as possible, I will refrain from going into details when it comes to explaining the actual maths behind curvature calculations. However, I would like to provide a quick reference.
 
 ## Background
- _Curvature_ is a topic widely covered in the realm of Mathematics. There is a wiki page explaining the maths behind curvature calculations and can be accessed [here][link09].
+ _Curvature_ is a topic widely covered in the realm of Mathematics. There is a wikipedia page dedicated to this topic and can be accessed [here][link09]. Another good resource is the _Curvature_ section under the _Derivatives of Multivariable Functions_ collection at [khanacademy.org][link11].
 
 <p align="center">
-  <img width="600" alt="Osculating Circle"
+  <img width="r400" alt="Osculating Circle"
   src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/osculating_circle.svg">
 </p>
+
+The curvature calculations used in this example are pretty much based on the
+following [stackoverflow question][link10].
+
+
 
 ## Prerequisites
 This project is compatible with [Python 2.7][link08]. In order to acquire the data that we are going to run our analysis on, we will need the following Poloniex API wrapper: [s4w3d0ff/python-poloniex][link01]
@@ -71,3 +76,5 @@ Running the above command should plot the results of our research. The result sh
 [link07]: <https://github.com/s4w3d0ff/python-poloniex>
 [link08]: <https://www.python.org/download/releases/2.7/>
 [link09]: <https://en.wikipedia.org/wiki/Curvature>
+[link10]: <https://stackoverflow.com/questions/28269379/curve-curvature-in-numpy>
+[link11]: <https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives#curvature>
