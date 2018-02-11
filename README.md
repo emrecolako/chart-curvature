@@ -10,12 +10,11 @@ A simple proof of concept project aiming to demonstrate practical application of
 This project was started as an experiment with the focus of analysing financial price data and as an attempt to  understand the relation between the price trend as a curve and the curvature of that curve.
 
 ## Abstract
-The initial question that I have asked at the beginning of my research was: _What are the benefits of representing price data as a curve?_ 
+The initial question that I have asked myself at the very beginning of my research was: _Are there any benefits to representing and analysing price data as curves?_
 
-Later, it became a bit more clear that by focusing on a specific quality of the price curve has the potential to provide a greater use value. So I came up with a slightly more specific question: _What is the relation between the curvature of a price curve and the underlying price movement of a security?_
+Later, it became a bit more clear that by focusing on a specific quality of the price curve, one might come up with a greater use value. So I asked a slightly more specific question: _What is the relation between the curvature of a price curve and the underlying price movement of a security?_
 
-The first question is easier to answer. Representing price with curves is
-nothing new.
+The first question is easier to answer. Representing price data with curves is nothing new. Line charts have been around for quite a long time and these are the preferred way of visualising price movements for many traders and analysts out there.
 
 <p align="center">
   <img width="400" height="400" alt="Example Line Chart"
