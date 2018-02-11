@@ -34,7 +34,7 @@ Let's have a quick look at the explanation for curvature proved at the top of th
 
 > In mathematics, curvature is any of a number of loosely related concepts in different areas of geometry. Intuitively, curvature is the amount by which a geometric object such as a surface deviates from being a flat plane, or a curve from being straight as in the case of a line, but this is defined in different ways depending on the context.
 
-Simply put, curvature is an important indicator that signals change of direction on a curve and this is the main motivation behind this case-study. Detecting changes in a trend based on the curvature of a curve presenting price movements of a security.
+Simply put, curvature is an important indicator that signals change of direction on a curve and this is the main motivation behind my case-study: Detecting the change in the trend of the price of a security and flagging potential consequences.
 
 In order to keep this article focused on the actual technical aspects that I have followed and reflect my findings as clear as possible, I will refrain from going into details when it comes to explaining the maths behind curvature calculations. However, I would like to provide a quick background on the process before going into the technical details.
 
