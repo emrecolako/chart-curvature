@@ -2,8 +2,8 @@
 A simple proof of concept project aiming to demonstrate practical application of price-chart data analysis.
 
 <p align="center">
-  <img width="600" alt="Sample Result"
-  src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/chart-curvature.png">
+  <img width="600" alt="Sample Result" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/chart-curvature.png">
+  <p style="text-align:center"><font size="2">Figure 1. Sample output of the analysis.</font></p>
 </p>
 
 ## Concept
@@ -17,8 +17,15 @@ Later, it became a bit more clear that by focusing on a specific quality of the 
 The first question is easier to answer. Representing price data with curves is nothing new. Line charts have been around for quite a long time and these are the preferred way of visualising price movements for many traders and analysts out there.
 
 <p align="center">
-  <img width="400" height="400" alt="Example Line Chart"
-  src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/line_chart.png">
+  <img width="400" height="400" alt="Example Line Chart" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/line_chart.png">
+  <p style="text-align:center"><font size="2">Figure 2. An example line chart.</font></p>
+</p>
+
+Another example for a curve based price representation are the moving averages. These are curves representing previous price movements of securities and are usually calculated using specific formulas depending on the type of the moving average (MA, SMA, EMA etc.).
+
+<p align="center">
+  <img width="400" height="400" alt="Example Line Chart" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/moving_averages.png">
+  <p style="text-align:center"><font size="2">Figure 3. A combination of MA(26) and EMA(12).</font></p>
 </p>
 
 Simply put, curvature is an important indicator that signals change of direction on a curve. In order to keep this article focused on the actual technical aspects that I have followed and reflect my findings as clear as possible, I will refrain from going into details when it comes to explaining the maths behind curvature calculations. However, I would like to provide a quick background on the process.
