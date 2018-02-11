@@ -14,7 +14,7 @@ The initial question that I have asked myself at the very beginning of my resear
 
 Later, it became a bit more clear that by focusing on a specific quality of the price curve, one might come up with a greater use value. So I asked a slightly more specific question: _What is the relation between the curvature of a price curve and the underlying price movement of a security?_
 
-The first question is easier to answer. Representing price data with curves is nothing new. Line charts have been around for quite a long time and these are the preferred way of visualising price movements for many traders and analysts out there. In that case, using curves to visualise price movements is entirely depending on the preference of the person looking at the data as there are many other chart types such as Bars, Candles etc.
+The first question is easier to answer. Representing price data with curves is nothing new. Line charts have been around for quite a long time and these are the preferred way of visualising price movements for many traders and analysts out there. In that case, using curves to visualise price movements is entirely depending on the preference of the person looking at the data as there are many other chart types such as Bars, Candles etc. to choose from.
 
 <p align="center">
   <img width="400" height="400" alt="Example Line Chart" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/line_chart.png">
@@ -25,12 +25,12 @@ Another example for a curve based price representation are the moving averages. 
 
 <p align="center">
   <img width="400" height="400" alt="Example Line Chart" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/moving_averages.png">
-  <p style="text-align:center"><font size="2">Figure 3. A combination of MA(26) and EMA(12).</font></p>
+  <p style="text-align:center"><font size="2">Figure 3. A combination of MA(26) and EMA(12) overlayed on top of a line-chart.</font></p>
 </p>
 
 The first question tends to be one of a more visual nature as the second one is after the potential applications and utility value of plotting price data as curves. What is curvature going to tell us about the price fluctuation of a security?
 
-Let's have a quick look at the explanation for curvature proved at the top the [wikipedia page][link09] dedicated to this topic:
+Let's have a quick look at the explanation for curvature proved at the top of the [wikipedia page][link09] dedicated to this topic:
 
 > In mathematics, curvature is any of a number of loosely related concepts in different areas of geometry. Intuitively, curvature is the amount by which a geometric object such as a surface deviates from being a flat plane, or a curve from being straight as in the case of a line, but this is defined in different ways depending on the context.
 
