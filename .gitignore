@@ -1,0 +1,5 @@
+# Compiled Object files
+*.pyc
+
+# Raw Materials Folder
+/raw_materials
