@@ -53,7 +53,14 @@ In order to keep this article focused on the actual technical aspects that I hav
   <p align="center"><font size="2">Figure 4. The Oscillating Circle and the curvature formula</font></p>
 </p>
 
-The implementation of the curvature calculations used in this project are pretty much based on [this stackoverflow question][link10].
+The implementation of the curvature calculations used in this project are pretty much based on [this stackoverflow question][link10] and the solution is based on the formula demonstrated in the image above.
+
+<p align="center">
+  <img width="400" alt="Curve Tangents" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/curve_tangents.png">
+  <p align="center"><font size="2">Figure 5. Curve Tangents, the first derivative of the curve points</font></p>
+</p>
+
+We initially start by calculating the first derivative of the X and Y values for each point on the curve. This is the change for the _X_ values that gives us **_X'_** and the change for the _Y_ values that gives us **_Y'_** for each of the points. The result is a vector known as the tangent of the curve. The image above illustrates this first stage.
 
 ## Prerequisites
 This project is compatible with [Python 2.7][link08]. In order to acquire the data that we are going to run our analysis on, we will be needing the following Poloniex API wrapper project: [s4w3d0ff/python-poloniex][link01]
