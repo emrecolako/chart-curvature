@@ -3,7 +3,7 @@ A simple proof of concept project aiming to demonstrate practical application of
 
 <p align="center">
   <img width="600" alt="Sample Result" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/chart-curvature.png">
-  <p style="text-align:center"><font size="2">Figure 1. Sample output of the analysis.</font></p>
+  <p align="center"><font size="2">Figure 1. Sample output of the analysis.</font></p>
 </p>
 
 ## Concept
@@ -32,7 +32,7 @@ various types of curves.
 
 <p align="center">
   <img width="400" height="400" alt="Example Line Chart" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/moving_averages.png">
-  <p style="text-align:center"><font size="2">Figure 3. A combination of MA(26) and EMA(12) overlayed on top of a line-chart.</font></p>
+  <p align="center"><font size="2">Figure 3. A combination of MA(26) and EMA(12) overlayed on top of a line-chart.</font></p>
 </p>
 
 Now, as we have _line-charts_, _moving averages_ and _oscillators_ out of our way, let's have a look at the potential applications and use cases for plotting price movements as curves with the sole purpose of utilising curve related calculations to help with our analysis. _What is curvature going to tell us about the price fluctuation of a security?_
@@ -49,8 +49,8 @@ In order to keep this article focused on the actual technical aspects that I hav
  _Curvature_ is a topic widely covered in the realm of Mathematics. There is a wikipedia page dedicated to this topic which can be accessed [here][link09]. Another good resource is the _Curvature_ section under the [_Derivatives of Multivariable Functions_][link11] collection at [khanacademy.org][link12]. There, you can find a set of video tutorials explaining the maths and formulas behind the process used in this case-study.
 
 <p align="center">
-  <img width="400" alt="Osculating Circle"
-  src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/osculating_circle.svg">
+  <img width="400" alt="Osculating Circle" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/osculating_circle.png">
+  <p align="center"><font size="2">Figure 4. The Oscillating Circle and the curvature formula</font></p>
 </p>
 
 The implementation of the curvature calculations used in this project are pretty much based on [this stackoverflow question][link10].
