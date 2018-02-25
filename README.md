@@ -56,7 +56,7 @@ In order to keep this article focused on the actual technical aspects that I hav
 The implementation of the curvature calculations used in this project are pretty much based on [this stackoverflow question][link10] and the solution is based on the formula demonstrated in the image above.
 
 <p align="center">
-  <img width="400" alt="Curve Tangents" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/curve_tangents.png">
+  <img width="400" alt="Curve Tangents" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/first_derivative.png">
   <p align="center"><font size="2">Figure 5. Curve Tangents, the first derivative of the curve points</font></p>
 </p>
 
