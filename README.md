@@ -22,7 +22,7 @@ However, just to clarify things,  here is some information related to price curv
 
 <p align="center">
   <img width="400" height="400" alt="Example Line Chart" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/line_chart.png">
-  <p style="text-align:center"><font size="2">Figure 2. An example line chart.</font></p>
+  <p align="center"><font size="2">Figure 2. An example line chart.</font></p>
 </p>
 
 Another example for a curve based price representation are the moving averages. These are curves representing previous price movements of securities and are usually calculated using specific formulas depending on the type of the moving average (MA, SMA, EMA etc.). Moving average curves are an elegant way of filtering noise out of the price movement and an effective way of overlying historic price relations on top of the current price data.
