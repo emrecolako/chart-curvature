@@ -50,17 +50,26 @@ In order to keep this article focused on the actual technical aspects that I hav
 
 <p align="center">
   <img width="400" alt="Osculating Circle" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/osculating_circle.png">
-  <p align="center"><font size="2">Figure 4. The Oscillating Circle and the curvature formula</font></p>
+  <p align="center"><font size="2">Figure 4. The Oscillating Circle and the curvature formula.</font></p>
 </p>
 
 The implementation of the curvature calculations used in this project are pretty much based on [this stackoverflow question][link10] and the solution is based on the formula demonstrated in the image above.
 
+As I said before, I will try to avoid getting into the details of how curvature is calculated as there are plenty of resources listed on this page and also quite a lot of information is included in the comments throughout the code. However, I believe a quick summary should be helpful at this stage.
+
 <p align="center">
   <img width="400" alt="Curve Tangents" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/first_derivative.png">
-  <p align="center"><font size="2">Figure 5. Curve Tangents, the first derivative of the curve points</font></p>
+  <p align="center"><font size="2">Figure 5. Curve Tangents, the first derivative of the curve points.</font></p>
 </p>
 
-We initially start by calculating the first derivative of the X and Y values for each point on the curve. This is the change for the _X_ values that gives us **_X'_** and the change for the _Y_ values that gives us **_Y'_** for each of the points. The result is a vector known as the tangent of the curve. The image above illustrates this first stage.
+We initially start by calculating the first derivative of the X and Y values for each point on the curve. This is the change for the _X_ values that gives us **_X'_** and the change for the _Y_ values that gives us **_Y'_** for each of the points. The result is a vector known as the tangent of the curve. The image above illustrates this first stage. You can think about this as calculating the velocity of a moving car.
+
+<p align="center">
+  <img width="400" alt="Curve Tangents" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/second_derivative.png">
+  <p align="center"><font size="2">Figure 6. The second derivative will provide us with the change for each tangent.</font></p>
+</p>
+
+The second derivative is the change in the first derivative. Just like the first derivative is similar to calculating the velocity of a moving car based on the positional change, the second derivative is similar to calculating the acceleration of the moving car based on the change in velocity.
 
 ## Prerequisites
 This project is compatible with [Python 2.7][link08]. In order to acquire the data that we are going to run our analysis on, we will be needing the following Poloniex API wrapper project: [s4w3d0ff/python-poloniex][link01]
