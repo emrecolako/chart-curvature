@@ -58,14 +58,14 @@ The implementation of the curvature calculations used in this project are pretty
 As I said before, I will try to avoid getting into the details of how curvature is calculated as there are plenty of resources listed on this page and also quite a lot of information is included in the comments throughout the code. However, I believe a quick summary should be helpful at this stage.
 
 <p align="center">
-  <img width="400" alt="Curve Tangents" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/first_derivative.png">
+  <img width="400" alt="First Derivative" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/first_derivative.png">
   <p align="center"><font size="2">Figure 5. Curve Tangents, the first derivative of the curve points.</font></p>
 </p>
 
 We initially start by calculating the first derivative of the X and Y values for each point on the curve. This is the change for the _X_ values that gives us **_X'_** and the change for the _Y_ values that gives us **_Y'_** for each of the points. The result is a vector known as the tangent of the curve. The image above illustrates this first stage. You can think about this as calculating the velocity of a moving car.
 
 <p align="center">
-  <img width="400" alt="Curve Tangents" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/second_derivative.png">
+  <img width="400" alt="Second Derivative" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/second_derivative.png">
   <p align="center"><font size="2">Figure 6. The second derivative will provide us with the change for each tangent.</font></p>
 </p>
 
@@ -74,7 +74,7 @@ The second derivative is the change in the first derivative. Just like the first
 Once we have all of the information required, we should be fine to run the curve calculation formula listed above. Coming up with the correct results is a matter of plugging the values into the right places. Please note that the illustrations above are depicting the normalized values for the derivative vectors. Also, the result usually will be a signed value, however, in my particular implementation I am generating absolute values that are between 0 and 1 so they can be plotted as a normalised bar chart.
 
 <p align="center">
-  <img width="400" alt="Curve Tangents" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/curvature_regions.png">
+  <img width="400" alt="Curve Regions" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/curvature_regions.png">
   <p align="center"><font size="2">Figure 7. Detected curvature regions.</font></p>
 </p>
 
