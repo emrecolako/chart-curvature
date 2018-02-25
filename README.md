@@ -69,7 +69,16 @@ We initially start by calculating the first derivative of the X and Y values for
   <p align="center"><font size="2">Figure 6. The second derivative will provide us with the change for each tangent.</font></p>
 </p>
 
-The second derivative is the change in the first derivative. Just like the first derivative is similar to calculating the velocity of a moving car based on the positional change, the second derivative is similar to calculating the acceleration of the moving car based on the change in velocity.
+The second derivative is the change in the first derivative. Just like the first derivative is similar to calculating the velocity of a moving car based on the positional change, the second derivative is similar to calculating the acceleration of the moving car based on the change in velocity. This calculation provides us with the *__X''__* and *__Y''__* values for each of the (X, Y) values for any curve point.
+
+Once we have all of the information required, we should be fine to run the curve calculation formula listed above. Coming up with the correct results is a matter of plugging the values into the right places. Please note that the illustrations above are depicting the normalized values for the derivative vectors. Also, the result usually will be a signed value, however, in my particular implementation I am generating absolute values that are between 0 and 1 so they can be plotted as a normalised bar chart.
+
+<p align="center">
+  <img width="400" alt="Curve Tangents" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/curvature_regions.png">
+  <p align="center"><font size="2">Figure 7. Detected curvature regions.</font></p>
+</p>
+
+Once the curvature calculation is complete, we acquire a wide range of information about the structure of that curve. It is possible to map high curvature regions and also to calculate the directional changes along the curve.
 
 ## Prerequisites
 This project is compatible with [Python 2.7][link08]. In order to acquire the data that we are going to run our analysis on, we will be needing the following Poloniex API wrapper project: [s4w3d0ff/python-poloniex][link01]
