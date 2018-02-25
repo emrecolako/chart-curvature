@@ -78,7 +78,9 @@ Once we have all of the information required, we should be fine to run the curve
   <p align="center"><font size="2">Figure 7. Detected curvature regions.</font></p>
 </p>
 
-Once the curvature calculation is complete, we acquire a wide range of information about the structure of that curve. It is possible to map high curvature regions and also to calculate the directional changes along the curve.
+Once the curvature calculation is complete, we acquire a wide range of information regarding the structure of that curve. It is possible to map high curvature regions and also to calculate the directional changes along the curve.
+
+It is important to note that, one of the main problems being solved as part of this case-study is the process of generating a curve from a candle-stick chart data. Techniques such as _smoothing_ and _averaging_ are utilised in order to convert the price movement into a curve that correctly reflects the underlying price movement.
 
 ## Prerequisites
 This project is compatible with [Python 2.7][link08]. In order to acquire the data that we are going to run our analysis on, we will be needing the following Poloniex API wrapper project: [s4w3d0ff/python-poloniex][link01]
