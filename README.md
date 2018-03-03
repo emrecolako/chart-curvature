@@ -159,14 +159,14 @@ def get_curvature(df_block):
 ```
 
 ## Conclusion
-In general, this project has helped me to familiarise myself with practices related to working with data. It was a valuable experience and I really enjoyed working on a hands-on project involving a practical maths topic.
+In general, this project helped me to familiarise myself with practices related to working with data. It was a valuable experience and I really enjoyed working on a hands-on example involving a practical maths topic.
 
 <p align="center">
   <img width="400" alt="Curve Regions" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/conclusion.png">
   <p align="center"><font size="2">Figure 11. Further cases of application.</font></p>
 </p>
 
-As a further research and some future work, I believe this technique could be easily applicable (with some additional criteria) in cases where significant resistance levels help the price bounce off and bases are formed. This could be easily implemented as one of the core components of a trading bot, where detecting trend reversal points would be quite an important task.
+As a further research and some future work, I believe this technique could be easily applicable (with some additional criteria of course) in cases where significant resistance levels help the price bounce off and bases are formed. This could be easily implemented as one of the core components of a trading bot or a scanner, where detecting trend reversal points would be absolutely crucial for a profitable setup.
 
 [link01]: <https://github.com/s4w3d0ff/python-poloniex>
 [link02]: <https://plot.ly/d3-js-for-python-and-pandas-charts>
