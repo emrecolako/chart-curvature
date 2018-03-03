@@ -10,7 +10,7 @@ A simple proof of concept project aiming to demonstrate practical application of
 This project was started as an experiment with the focus of analysing financial price data and as an attempt to  understand the relation between the price trend as a curve and the curvature of that curve.
 
 ## Abstract
-This project is an exerciser with the purpose of exploring price data analysis and an attempt to understand the effects of curvature in cases where price is represented as a curve.
+This project is an exercise created with the purpose of exploring price data analysis and an attempt to understand the effects of curvature in cases where price is represented as a curve.
 
 The initial question that I have asked myself at the very beginning of my research was the following: _Are there any benefits to representing and analysing price data as a curve?_
 
@@ -35,7 +35,7 @@ various types of curves.
   <p align="center"><font size="2">Figure 3. A combination of MA(26) and EMA(12) overlayed on top of a line-chart.</font></p>
 </p>
 
-Now, as we have _line-charts_, _moving averages_ and _oscillators_ out of our way, let's have a look at the potential applications and use cases for plotting price movements as curves with the sole purpose of utilising curve related calculations to help with our analysis. _What is curvature going to tell us about the price fluctuation of a security?_
+Now, as we have _line-charts_, _moving averages_ and _oscillators_ out of our way, let's have a look at the potential applications and use cases for plotting price movements as curves with the sole purpose of utilising curve related calculations to help us with our analysis: _What is curvature going to tell us about the price fluctuation of a security?_
 
 Let's have a quick look at the explanation for curvature proved at the top of the [wikipedia page][link09] dedicated to this topic:
 
@@ -118,7 +118,14 @@ Please run the following script to plot the resulting analysis.
 ./plot-data.py
 ```
 
-Running the above command should plot the results of our research. The result should look like the image provided at the top of this page.
+Running the above command should plot the results for our data. The result should look like the image provided at the top of this page.
+
+Let's have a close look at what actually is happening. First we start with slice of candle-stick chart.
+
+<p align="center">
+  <img width="400" alt="Curve Regions" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/candles.png">
+  <p align="center"><font size="2">Figure 8. Initial candle-stick chart.</font></p>
+</p>
 
 ## Conclusion
 
