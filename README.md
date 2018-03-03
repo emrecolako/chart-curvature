@@ -142,7 +142,31 @@ Next, we run our line data through several smoothing and averaging operations in
 </p>
 
 
+This is the main function from the _utils.py_ module that expects an incoming data-frame. The data is then compressed into a tighter time frame so that we are left with averaged results, discarding some of the noise in the input slice. Finally, a smoothing operation is applied to smooth the signal.
+
+```python
+def resample_data(input_df, input_timeframe='2H', output_timeframe='4H', smooth=False, smoothing_length=2):
+    ...
+    ...
+```
+
+As most of the functions, the curvature calculation is inside the _utils.py_ module as well.
+
+```python
+def get_curvature(df_block):
+    ...
+    ...
+```
+
 ## Conclusion
+In general, this project has helped me to familiarise myself with practices related to working with data. It was a valuable experience and I really enjoyed working on a hands-on project involving a practical maths topic.
+
+<p align="center">
+  <img width="400" alt="Curve Regions" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/conclusion.png">
+  <p align="center"><font size="2">Figure 11. Further cases of application.</font></p>
+</p>
+
+As a further research and some future work, I believe this technique could be easily applicable (with some additional criteria) in cases where significant resistance levels help the price bounce off and bases are formed. This could be easily implemented as one of the core components of a trading bot, where detecting trend reversal points would be quite an important task.
 
 [link01]: <https://github.com/s4w3d0ff/python-poloniex>
 [link02]: <https://plot.ly/d3-js-for-python-and-pandas-charts>
