@@ -120,12 +120,27 @@ Please run the following script to plot the resulting analysis.
 
 Running the above command should plot the results for our data. The result should look like the image provided at the top of this page.
 
-Let's have a close look at what actually is happening. First we start with slice of candle-stick chart.
+Let's have a closer look at what actually is happening. First we start with a slice of candle-stick data.
 
 <p align="center">
   <img width="400" alt="Curve Regions" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/candles.png">
   <p align="center"><font size="2">Figure 8. Initial candle-stick chart.</font></p>
 </p>
+
+We turn this into a line-chart based on the _close_ prince.
+
+<p align="center">
+  <img width="400" alt="Curve Regions" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/line_close.png">
+  <p align="center"><font size="2">Figure 9. Line plot for based on the closing price.</font></p>
+</p>
+
+Next, we run our line data through several smoothing and averaging operations in order to reduce the noise. I would like to point out that _filtering_ is an important operation that significantly increases the chances of a more accurate result. In my case, I have used a simple smoothing and averaging function, however, one may choose to investigate more advanced filtering methods such as the [Super Smoother Filter by Ehlers][link13].
+
+<p align="center">
+  <img width="400" alt="Curve Regions" src="https://github.com/pinarmeltem/chart-curvature/blob/master/docs/smoothed_interpolated.png">
+  <p align="center"><font size="2">Figure 10. Smoothed line plot.</font></p>
+</p>
+
 
 ## Conclusion
 
@@ -141,3 +156,4 @@ Let's have a close look at what actually is happening. First we start with slice
 [link10]: <https://stackoverflow.com/questions/28269379/curve-curvature-in-numpy>
 [link11]: <https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives#curvature>
 [link12]: <https://www.khanacademy.org>
+[link13]: <http://www.stockspotter.com/files/PredictiveIndicators.pdf>
